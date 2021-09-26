@@ -62,7 +62,7 @@ Test işlemlerimde id:1, title:example ve endpoint:https://google.com olacak şe
 | Parametre | Tip     | Açıklama                       |
 | :-------- | :------- | :-------------------------------- |
 | `start_date`      | `string` | rapor başlangıç günü |
-| `start_date`      | `string` | rapor bitiş günü |
+| `end_date`      | `string` | rapor bitiş günü |
 | `appId`      | `string` | uygulama id |
 | `os`      | `string` | işletim sistemi |
 | `subscription`      | `string` | started,renewed veya canceled değerleri |
