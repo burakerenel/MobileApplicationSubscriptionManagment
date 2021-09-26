@@ -49,7 +49,7 @@ class PurchaseController extends Controller
             $purchase->appId = $device->appId;
             $purchase->receiptId = $receiptId;
             $purchase->expire_date = $expire_date;
-            $device->subscription = $subscription;
+
             $purchase->save();
         }
         elseif($purchase && $mockResponse['status']=='success'){
